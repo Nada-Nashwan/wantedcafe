@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swa");
+body {
+   
+      color: #fff;
+      letter-spacing: 1px;
+      font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400;
+  }
+  
+  .container {
+      background-color: #fafafa;
+      max-width: 1000px;
+      margin: 0px auto;
+      box-shadow: 10px 15px 20px rgba(0, 0, 0, .1);
+      display: flex;
+      
+  }
+  
+  .container-time {
+      background-color: rgba(0, 0, 0, .95);
+      padding: 50px;
+      outline: 3px dashed #83674e;
+      outline-offset: -30px;
+      text-align: center;
+  }
+  .title{
+      font-size: 35px;
+      text-transform: uppercase;
+  }
+  
+  .days {
+      color:#83674e;
+      font-size: 30px;
+  }
+  
+  .phone {
+      font-size: 20px;
+  }
+
+  .container-form {
+      padding: 20px 0;
+      margin: 0 auto;
+      color: #83674e;
+  }
+  form {
+      display: grid;
+      grid-row-gap: 20px;
+  }
+  form p {
+      font-weight: 600;
+  }
+  .form-items {
+      display: flex;
+      justify-content: space-between;
+      color: #83674e;
+  }
+  
+  input,select {
+      pad: 10px 15px;
+  }
+  .form-title{
+    color: #83674e;
+  }
+  
+/*زر ال submit */
+  .Reserve-but {
+      background-color: #83674e;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      font-size: 18px;
+      border-radius: 100px;
+      box-shadow: 7px 10px 12px rgba(0, 0, 0, .1);
+      cursor: pointer;
+      transition: all .3s;
+    
+  }
+  
+  .Reserve-but:hover {
+      transform: scale(1.03);
+      box-shadow: 10px 12px 15px rgba(0, 0, 0, .3);
+  }
+  
+  
+      
+      
+  
